@@ -1,0 +1,48 @@
+#!/usr/bin/env node
+const logger = require('../utils/logger')
+require('../config/env.config');
+require('../utils/override')
+
+
+const connectToDB = function () {
+
+    return new Promise((resolve, reject) => {
+        let DbService = require('./../services/db.service')
+        const MAX_TRY_ATTEMPT = 3;
+        let noOfAttemptTried = 0
+        let interval = setInterval(async function () {
+            noOfAttemptTried++
+            const { value, error } = await DbService.connect();
+            if (value) {
+                clearInterval(interval)
+                resolve()
+            } else if (noOfAttemptTried >= MAX_TRY_ATTEMPT) {
+                clearInterval(interval)
+                reject(error)
+            }
+        }, 2000)
+    })
+}
+
+
+function initiateService() {
+    require("../index")
+
+}
+
+(async function () {
+    try {
+        logger.logInfo('Connecting to DB');
+        await connectToDB();
+        logger.logInfo('DB Connected');
+
+        logger.logInfo('Starting Service');
+        initiateService();
+        
+    } catch (error) {
+        logger.sendErrorMail(error);
+        process.exit(1)
+        //throw new Error(error);
+    }
+
+})()

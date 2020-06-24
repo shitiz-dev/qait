@@ -1,0 +1,8 @@
+FROM node:alpine
+RUN apk update && apk upgrade && \
+    apk add --no-cache bash git openssh && apk add --no-cache libreoffice
+RUN mkdir /opt/itsme-be
+WORKDIR /opt/itsme-be
+COPY . /opt/itsme-be
+EXPOSE 3000 
+CMD [ "npm", "start" ]

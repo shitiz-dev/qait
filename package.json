@@ -1,0 +1,33 @@
+{
+  "name": "validateme-csvrecords-processor",
+  "version": "1.0.0",
+  "description": "CSV Records Processor",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "NODE_ENV=prod node ./bin/www",
+    "start": "node ./bin/www",
+    "lint:fix": "./node_modules/.bin/eslint --fix .",
+    "pack": "pack-zip && mkdir ../build && mv *.zip ../build/"
+  },
+  "author": "Shivam Jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "@shelf/aws-lambda-libreoffice": "^3.0.6",
+    "aws-sdk": "^2.685.0",
+    "crypto-js": "^3.1.9-1",
+    "docxtemplater": "^3.17.6",
+    "dotenv": "^8.2.0",
+    "eth-lightwallet": "^4.0.0",
+    "ipfs-http-client": "^28.1.1",
+    "libreoffice-convert": "^1.0.5",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.1",
+    "mongoose-timestamp": "^0.6.0",
+    "pizzip": "^3.0.6",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "uuid": "^8.1.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  }
+}
