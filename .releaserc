@@ -1,5 +1,5 @@
 {
-    "branch": "release",
+    "branches": ["master", {name: "release", prerelease: true}],
     "ci": true, #Added CI enabled attribute
     "plugins": [
         "@semantic-release/commit-analyzer",
