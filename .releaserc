@@ -1,5 +1,17 @@
 {
-    "branch": "master",
+    "branches": [
+    "+([1-9])?(.{+([1-9]),x}).x",
+    "master",
+    "next",
+    {
+      "name": "alpha",
+      "prerelease": true
+    },
+    {
+      "name": "beta",
+      "prerelease": true
+    }
+  ],
     "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
