@@ -1,6 +1,6 @@
 {
     "branches": ["master", {name: "release", prerelease: true}],
-    "ci": true,
+    "ci": true, #Added CI enabled attribute
     "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
