@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.8.0](https://github.com/mohdadilqa/qainfotech/compare/v1.7.0...v1.8.0) (2020-07-02)
+
+
+### Features
+
+* sudo added ([c814cf2](https://github.com/mohdadilqa/qainfotech/commit/c814cf2a38a2e64c3a5b3e48046d48306d8942e8))
+
 # [1.7.0](https://github.com/mohdadilqa/qainfotech/compare/v1.6.0...v1.7.0) (2020-07-02)
 
 
