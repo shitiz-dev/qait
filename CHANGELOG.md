@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.8.1](https://github.com/mohdadilqa/qainfotech/compare/v1.8.0...v1.8.1) (2020-07-02)
+
+
+### Performance Improvements
+
+* git installation steps added ([fbab6e6](https://github.com/mohdadilqa/qainfotech/commit/fbab6e681d21530b393f1c1ff0ca173fac0404a5))
+
 # [1.8.0](https://github.com/mohdadilqa/qainfotech/compare/v1.7.0...v1.8.0) (2020-07-02)
 
 
