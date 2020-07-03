@@ -5,7 +5,7 @@
         "@semantic-release/commit-analyzer",{
        "preset": "angular",
        "releaseRules": [
-          {"type": "refactor", "release": "major"}] },
+          {"type": "validate", "release": "major"}] },
         "@semantic-release/release-notes-generator",
         [
             "@semantic-release/changelog",
