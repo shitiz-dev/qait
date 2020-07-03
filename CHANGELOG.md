@@ -1,5 +1,17 @@
 # Semantic Versioning Changelog
 
+# [2.0.0](https://github.com/mohdadilqa/qainfotech/compare/v1.9.0...v2.0.0) (2020-07-03)
+
+
+### Code Refactoring
+
+* **resource:** rename useguidedfailure argument on environment resource ([b1f69ed](https://github.com/mohdadilqa/qainfotech/commit/b1f69ed39ed60ea14890b3db34a20a29faa5cb15))
+
+
+### BREAKING CHANGES
+
+* **resource:** The useguidedfailure argument has been renamed use_guided_failure in the octopusdeploy_environment resource.
+
 # [1.9.0](https://github.com/mohdadilqa/qainfotech/compare/v1.8.1...v1.9.0) (2020-07-03)
 
 
