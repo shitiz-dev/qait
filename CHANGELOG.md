@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.9.0](https://github.com/mohdadilqa/qainfotech/compare/v1.8.1...v1.9.0) (2020-07-03)
+
+
+### Features
+
+* changed Dockerfile ([24bb97e](https://github.com/mohdadilqa/qainfotech/commit/24bb97ede09d65d011795f4d93db67175012d5bd))
+
 ## [1.8.1](https://github.com/mohdadilqa/qainfotech/compare/v1.8.0...v1.8.1) (2020-07-02)
 
 
