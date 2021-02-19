@@ -1,5 +1,18 @@
 # Semantic Versioning Changelog
 
+# [2.1.0](https://github.com/shitiz-dev/qait/compare/v2.0.0...v2.1.0) (2021-02-19)
+
+
+### Bug Fixes
+
+* Dockerfile fixed ([0fe06af](https://github.com/shitiz-dev/qait/commit/0fe06aff2f9382bcfa6b8c78d70b8c4df411e548))
+
+
+### Features
+
+* Dockerfile git uninstalled ([45fd44f](https://github.com/shitiz-dev/qait/commit/45fd44f5980e830ae1a0a86105b7136f09a2990e))
+* Dockerfile git uninstalled ([0cb60f2](https://github.com/shitiz-dev/qait/commit/0cb60f22e5a613a603437a4ace885bb8d87db308))
+
 # [2.0.0](https://github.com/mohdadilqa/qainfotech/compare/v1.9.0...v2.0.0) (2020-07-03)
 
 
