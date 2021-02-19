@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [2.1.1](https://github.com/shitiz-dev/qait/compare/v2.1.0...v2.1.1) (2021-02-19)
+
+
+### Bug Fixes
+
+* new file added ([7420b31](https://github.com/shitiz-dev/qait/commit/7420b31e6ad5ad4e4b827dcd568f8e2b0986146b))
+
 # [2.1.0](https://github.com/shitiz-dev/qait/compare/v2.0.0...v2.1.0) (2021-02-19)
 
 
